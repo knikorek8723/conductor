@@ -29,6 +29,10 @@
         };
     };
 
+    &trackball_listener {
+        input-processors = <>;  // 上書きして無効化
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
