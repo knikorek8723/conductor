@@ -29,8 +29,8 @@
         };
     };
 
-    &trackball_listener {
-        input-processors = <>;  // 上書きして無効化
+    trackball_listener {
+        input-processors = <>;
     };
 
     keymap {
