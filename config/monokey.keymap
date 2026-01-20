@@ -14,6 +14,11 @@
 
 &lt { quick-tap-ms = <300>; };
 
+/* オートマウスレイヤー(AML)を無効化 - input-processorsを削除 */
+&trackball_listener {
+    input-processors = <>;
+};
+
 / {
     combos { compatible = "zmk,combos"; };
 
@@ -27,10 +32,6 @@
 
             bindings = <&mkp MB2>;
         };
-    };
-
-    trackball_listener {
-        input-processors = <>;
     };
 
     keymap {
