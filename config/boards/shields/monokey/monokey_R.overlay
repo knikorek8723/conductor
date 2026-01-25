@@ -34,7 +34,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        /* AML (Auto Mouse Layer) disabled - input-processors removed */
+        input-processors = <&zip_temp_layer 4 100000>; // AML
     };
 };
 
